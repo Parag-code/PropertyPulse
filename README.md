@@ -79,3 +79,11 @@
 - 📐 **Price per sq ft:** ₹7,875  
 - 📈 **5-Year ROI:** ₹132.8 Lakhs  
 - 🌿 **Environment:** AQI: 89 | Noise: 45 dB | Green Cover: 23%
+
+
+## 🙌 Acknowledgements
+
+- Built with using **Python** and **Streamlit**
+- Inspired by real estate data apps and housing market trends
+- Dataset sourced and cleaned from **Jaipur housing listings**
+
