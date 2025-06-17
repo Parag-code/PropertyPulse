@@ -1,4 +1,3 @@
-# PropertyPulse
 # 🏠 PropertyPulse – Smart Real Estate Analytics
 
 **PropertyPulse** is a data-driven web application built using **Streamlit** that helps users **predict property prices**, assess **ROI potential**, and evaluate **environmental metrics** in various locations across **Jaipur, India**.
@@ -62,3 +61,21 @@
 | `Custom CSS`     | Styled dark-themed UI                |
 
 ---
+
+## 🧪 Sample Input & Output
+
+### 🔹 Input
+
+| Feature     | Value         |
+|-------------|---------------|
+| Area        | 1200 sq ft    |
+| Bedrooms    | 3 BHK         |
+| Bathrooms   | 2             |
+| Location    | Malviya Nagar |
+
+### 🔸 Output
+
+- 💰 **Predicted Price:** ₹94.5 Lakhs  
+- 📐 **Price per sq ft:** ₹7,875  
+- 📈 **5-Year ROI:** ₹132.8 Lakhs  
+- 🌿 **Environment:** AQI: 89 | Noise: 45 dB | Green Cover: 23%
