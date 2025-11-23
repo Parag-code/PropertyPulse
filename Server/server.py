@@ -4,6 +4,12 @@ from Server import util
 app = Flask(__name__)
 
 
+
+@app.route("/home", methods=["GET"])
+def health():
+    return "OK", 200
+
+
 # Step 1: Fetching Locations
 @app.route('/get_locations_names', methods=['GET'])
 def get_location_names():
@@ -100,4 +106,5 @@ if __name__ == "__main__":
         app.run()
     except Exception as e:
         print(f"Error starting server: {e}")
+
 
