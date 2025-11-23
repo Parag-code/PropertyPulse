@@ -1,5 +1,7 @@
 from flask import Flask, request, jsonify
 from Server import util
+util.load_saved_artifacts()
+
 
 app = Flask(__name__)
 
@@ -106,5 +108,6 @@ if __name__ == "__main__":
         app.run()
     except Exception as e:
         print(f"Error starting server: {e}")
+
 
 
