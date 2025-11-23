@@ -1,8 +1,9 @@
 pandas
 numpy
 plotly
-Pillow
+Pillow==10.4.0
 scikit-learn
 gunicorn
+
 
 
