@@ -4,6 +4,8 @@ plotly
 Pillow==10.4.0
 scikit-learn
 gunicorn
+flask
+
 
 
 
