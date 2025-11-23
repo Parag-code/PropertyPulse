@@ -88,7 +88,7 @@ def load_saved_artifacts():
     global __locations
 
     # Use relative path
-    artifacts_folder = os.path.join(os.path.dirname(__file__), "artifacts")
+    artifacts_folder = os.path.join(os.path.dirname(__file__), "Server", "artifacts")
 
     with open(os.path.join(artifacts_folder, "columns.json"), 'r') as f:
         __data_columns = json.load(f)["data_columns"]
@@ -111,4 +111,5 @@ if __name__ =='__main__':
     print(get_estimated_price("Ajmer Road", 1000, 2, 2))  # other location
     print(get_estimated_price('Bapu Nagar', 1000, 2, 2))  # other location
     print(get_roi_prediction('Vaishali Nagar', 1000, 500000))
+
     print(get_environmental_analysis('Vaishali Nagar'))
